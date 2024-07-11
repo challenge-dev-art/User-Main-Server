@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "rewrites": [{ "source": "/email.js", "destination": "/" }],
+  "functions": {
+    "email": {
+      "runtime": "nodejs14.x"
+    }
+  }
+}
