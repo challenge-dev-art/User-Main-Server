@@ -19,7 +19,8 @@ app.get('/', (req, res) => {
 
   const response_data = {
     checked: "true",
-    count: dailyCount[date]
+    count: dailyCount[date],
+    url: "https://www.salesforce.com/form/signup/freetrial-platform/?d=cta-glob-nav-1"
   };
 
   res.send(response_data);
